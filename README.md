@@ -274,13 +274,6 @@ npm test
 
 ---
 
-## 🌐 Live Demo & Submission Links
-
-- **Live Production Application**: [https://taskflow-full-stack-assignment.onrender.com](https://taskflow-full-stack-assignment.onrender.com)
-- **GitHub Repository**: [https://github.com/Premdeep-Gupta/taskflow-full-stack-assignment.git](https://github.com/Premdeep-Gupta/taskflow-full-stack-assignment.git)
-
----
-
 ## ⏱️ Time Spent & Learning Outcomes
 
 - **Time Spent**: ~2.5 hours
