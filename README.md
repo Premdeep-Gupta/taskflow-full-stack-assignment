@@ -267,6 +267,15 @@ npm test
 
 ---
 
-## 🔗 Repository
+## 🌐 Live Demo & Submission Links
 
-GitHub Repository: [https://github.com/Premdeep-Gupta/taskflow-full-stack-assignment.git](https://github.com/Premdeep-Gupta/taskflow-full-stack-assignment.git)
+- **Live Production Application**: [https://taskflow-full-stack-assignment.onrender.com](https://taskflow-full-stack-assignment.onrender.com)
+- **GitHub Repository**: [https://github.com/Premdeep-Gupta/taskflow-full-stack-assignment.git](https://github.com/Premdeep-Gupta/taskflow-full-stack-assignment.git)
+
+---
+
+## ⏱️ Time Spent & Learning Outcomes
+
+- **Time Spent**: ~2.5 hours
+- **Key Learnings**: Utilizing native Node 22 SQLite (`node:sqlite`) for zero-dependency native SQL execution, implementing clean RESTful API endpoint design with Supertest suite, and crafting responsive Tailwind CSS Kanban UI layouts.
+
