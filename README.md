@@ -13,9 +13,21 @@ A modern, full-stack Trello-like Task Management Application built as a Full-Sta
 
 ## 📋 Overview
 
-**TaskFlow** allows small teams to organize tasks into columns (`To Do`, `In Progress`, `Done`), filter by priority (`High`, `Medium`, `Low`), manage interactive subtasks checklists, inspect live SQL queries, and persist all changes in a relational SQLite database.
+![TaskFlow Board Preview](./assets/taskflow_preview.png)
 
-It demonstrates clean architecture with an Express backend, native SQLite database using raw SQL queries (no ORM, as per evaluation criteria), a responsive React + Vite frontend with Tailwind CSS, and comprehensive automated test coverage with Vitest + Supertest.
+**TaskFlow** is a modern and lightweight full-stack task management application designed for small teams to organize daily work smoothly.
+
+### 🌟 Key Features & Project Capabilities:
+1. **Interactive Kanban Board**: Tasks are neatly organized into three standard status columns — **To Do**, **In Progress**, and **Done**.
+2. **Task Creation & Editing**: Users can create new tasks with required titles, optional descriptions, priorities, and column assignments.
+3. **Color-Coded Priority Badges**: Tasks display clear priority labels (**High**, **Medium**, **Low**) with colored top accent bars for quick scanning.
+4. **Interactive Subtasks Checklist**: Clicking any task opens a detail modal where team members can check off subtasks, automatically animating the task's progress bar (0% to 100%).
+5. **Team Avatars & Badge Indicators**: Task cards feature assignee initials (`AD`, `RK`, `JD`, `SK`), comment count badges, and attachment badges.
+6. **Live Search & Priority Filtering**: Instantly search tasks by title or description using the header search bar, or filter tasks by priority using the dropdown menu.
+7. **Live SQLite Metrics Banner**: Shows real-time task counts across all columns calculated dynamically using non-trivial SQL queries (`GROUP BY` and `JOIN`).
+8. **Interactive Live SQL Inspector**: Evaluators can click `<> SQL Inspector` to inspect live query execution times or run raw SQL queries directly in the built-in SQL Sandbox.
+9. **One-Click Database Reset**: Includes a `🔄 Reset DB` button to reset auto-increment sequences and restore clean initial seed data for instant testing.
+10. **100% Data Persistence**: Powered by a native SQLite database engine (`node:sqlite`) ensuring all changes persist across browser refreshes and server restarts.
 
 ---
 
